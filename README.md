@@ -4,8 +4,6 @@ Conception de la modélisation UML d'un système simplifié de réservation de v
 
 ## Projet
 
-### Analyse des besoins du client :
-
 ### Acteurs :
 
 - Client
@@ -56,23 +54,34 @@ Dans le cadre de la définition des règles de gestion dans le diagramme de clas
 
   - Chaque classe a un id qui lui est propre
 
+  ***
+
 - **Règles de gestion liées à la classe `Utilisateur` :**
+
   Un Utilisateur est un client
+
   **Contraintes**
   Un client peut réserver SEULEMENT si une compagnie aérienne a proposé un vol.
   Un client peut confirmer son vol MAIS avant le départ du vol Si il n’a pas annuler son vol
   Un client peut annuler son vol MAIS avant le départ du vol Si il n’a pas confirmer son vol
-  ***
+
   **Obligations**
   Un client DOIT confirmer son vol Si il souhaite réellement le prendre SI il ne l’a pas annulé
+
+  ***
+
 - **Règles de gestion liées à la classe `Passager` :**
 
   - Un passager n’existe seulement si un utilisateur lui a réserver un vol
+
+  ***
 
 - **Règles de gestion liées à la classe `Reservation` :**
 
   - Une réservation concerne SEULEMENT un seul vol pour un seul passager.
   - Une réservation ne peut être faite que si le vol est ouvert à la réservation.
+
+  ***
 
 - **Règles de gestion liées à la classe `Vol` :**
 
@@ -81,9 +90,11 @@ Dans le cadre de la définition des règles de gestion dans le diagramme de clas
   - Un vol a un jour et une heure de départ, et un jour et une heure d’arrivée.
   - Un vol peut comporter des escales dans des aéroports.
 
+  ***
+
 - **Règles de gestion liées à la classe `CompagnieAerienne` :**
 
-  -
+  - ***
 
 - **Règles de gestion liées à la classe `Escale` :**
 
@@ -91,5 +102,25 @@ Dans le cadre de la définition des règles de gestion dans le diagramme de clas
   - Une escale a une heure d’arrivée et une heure de départ.
   - Contrainte sur les escales : Les escales d'un vol doivent avoir une heure de départ antérieure à l'heure d'arrivée.
 
+  ***
+
 - **Règles de gestion liées à la classe `Aéroport` :**
   - Chaque aéroport dessert une ou plusieurs villes.
+
+## Livrables
+
+<ul>
+<li>Règles de gestion</li>
+<li>Diagramme de cas d'utilisation</li>
+<li>Diagramme de classe</li>
+<li>Diagramme de séquence</li>
+</ul>
+
+## Contributeurs
+
+- **Yoan Bor**
+
+  - Profil GitHub : [Yoan Bor](https://github.com/yoanbor)
+
+- **Florian Poteau**
+  - Profil GitHub : [Florian Poteau](https://github.com/florianpoteau)
