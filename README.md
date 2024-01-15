@@ -94,7 +94,9 @@ Dans le cadre de la définition des règles de gestion dans le diagramme de clas
 
 - **Règles de gestion liées à la classe `CompagnieAerienne` :**
 
-  - ***
+  -
+
+  ***
 
 - **Règles de gestion liées à la classe `Escale` :**
 
