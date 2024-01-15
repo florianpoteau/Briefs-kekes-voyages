@@ -2,6 +2,8 @@
 
 Conception de la modélisation UML d'un système simplifié de réservation de vols pour l'agence de voyage Kékés Voyages.
 
+<a href="https://briefskekevoyages.notion.site/Briefs-K-k-s-Voyages-UML-dd64da28651049e684b0996a561a51ae"><img src="https://img.shields.io/badge/Notion-000?logo=notion&logoColor=fff&style=for-the-badge"></img></a>
+
 ## Acteurs :
 
 Futur client = Utilisateur n’ayant pas créer de compte, pouvant s’inscrire
