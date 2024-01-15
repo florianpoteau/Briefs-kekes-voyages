@@ -110,6 +110,7 @@ _Partie concernant le compte de l’utilisateur :_
   - L’utilisateur valide son mail
   - La plateforme renvoie une instance d’utilisateur
 - **Si l’utilisateur a déjà un compte**
+
   - L’utilisateur clique sur se connecter
   - L’utilisateur renseigne ses informations
   - La plateforme vérifie les informations
@@ -123,7 +124,9 @@ _Partie concernant le compte de l’utilisateur :_
     - L’utilisateur clique sur supprimer son compte
     - L’utilisateur confirme la suppression de son compte
     - La plateforme confirme la suppression du compte de l’utilisateur
+
   _Partie concernant la réservation :_
+
 - La compagnie aérienne ouvre le vol à la réservation
 - La plateforme vérifie si l’utilisateur est connecté
 - L’utilisateur renseigne les informations personnelles du passager au système de réservation
